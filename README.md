@@ -2,13 +2,13 @@
 
 Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
 
-Alunos: Ana Paula de Souza e Ana Luiza Dias da Rocha - 3info1
+Alunos: [Ana Paula de Souza](github.com/aanappaula) e [Ana Luiza Dias da Rocha](https://github.com/AnaLuizaDias).3info1
 
 Professores: [Marco André Mendes](github.com/marcoandre) e [Alann Perini](https://github.com/AlannKPerini).
 
 Links do projeto:
 
--   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
+-   [Documentação (esse documento)](github.com/aanappaula/projeto_integrador)
 -   [Backend](github.com/marcoandre/pi-backend)
 -   [Frontend](github.com/marcoandre/pi-frontend)
 
