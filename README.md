@@ -1,4 +1,4 @@
-# Projeto Integrador - Animais IFC
+# Projeto Integrador - Documentação
 ![Header](./logoo.png)
 
 Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
@@ -13,86 +13,38 @@ Links do projeto:
 -   [Backend](github.com/marcoandre/pi-backend)
 -   [Frontend](github.com/marcoandre/pi-frontend)
 
-# Como usar esse modelo para o Projeto Integrador
-
-1. Faça um fork desse repositório para a sua conta do GitHub.
-2. Clone o repositório para o seu computador.
-3. Abra o arquivo README.md no seu editor de texto favorito (recomendamos o [Visual Studio Code](https://code.visualstudio.com/)).
-4. Tenha instalada a extensão [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) no seu editor de texto.
-5. Edite o arquivo README.md com as informações do seu projeto.
-
-# Desenvolvimento
-
--   As equipes serão avaliadas por cada etapa da documentação e entregas realizadas.
--   Cada equipe deverá escolher um sistema para o desenvolvimento das atividades, a partir dos modelos apresentados.
 
 # Modelos de Sistemas
 
-**Nosso modelo escolhido foi o gerenciamento de vendas para uma padaria, para podermos aplicar a nossa ideia de um site de adoção de animais do no IFC Araquari. O intuito do site é ajudar os animais que ficam perdidos dentro do instituto, e fazendo essa divulgação procurar lares para esses animais, fazendo assim as adoções conscientes.**
+**A base do nosso projeto foi inspirada no modelo de vendas de padaria.**
 
-## 1- Animais IFC
-
-**Adoção de animais abandonados no campus de Araquari**
-
-Os alunos da instituição sempre ajudaram os animais que ficam por ali perdidos, que vieram da rua. A divulgação desses animais era sempre feita pelo instagram. Com a grande crescimento de aparições de novos animais abandonadas (especialmente cachorros), foi vista uma necessidade de criação de um site para administrar e fazer uma melhor divulgação.
 
 #  Introdução
 
-**Explicação detalhada sobre o funcionamenento do site**
+<h2>Amigos de Joinville</h2>
 
-Paragráfo 1
+**Adoção de animais abandonados e perdidos em Joinville e região.**
+
+Paula e Luiza são duas amigas que sempre amaram os animais. Resgatando um gato ou um cachorro de vez em quando, elas decidiram realizar um sonho antigo. Em 2021, elas inauguraram uma ONG para adoção de animais em Joinville e região, para ajudar os animais que foram abandonados ou estão perdidos a acharem um lar. A ONG “Amigos de Joinville”, é divulgada somente em suas redes sociais (Instagram e Facebook). Com a grande repercussão da ONG, foi vista uma necessidade da criação de um site, para ter o melhor controle dos animais, das adoções, e fazer a avaliação dos tutores para  assim realizar a possível adoção.
+
 
 # Situação Problema
 
 **Descrição dos problemas que envolvem a empresa num todo**
-Paragráfo 1
+Parágrafo 1
+
+Parágrafo 2
+
+Parágrafo 3
 
 
 ![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
 
-Descrevem o que acontece atualmente na empresa em um contexto global,
-abordando o funcionamento da empresa como um todo, não apenas os “problemas” que lá ocorrem.
 
-Sabendo disso, seu papel é **detalhar o funcionamento da empresa escolhida na
-atualidade, ou seja, antes de seu novo software**, usando como base a situação que passamos, mas aprofundando os detalhes de como as coisas acontecem.
 
--   Pesquise sobre empresas do ramo escolhido
-    para entender como funcionam;
--   Aproveite seus conhecimentos previamente adquiridos na área da empresa que escolheu, se houver;
--   Simule uma situação real. Lembre-se que são
-    propostas com empresas fictícias, sendo assim,
-    você terá que tomar certas decisões sobre como
-    a empresa funciona em relação às coisas que
-    não estão definidas no documento base (por
-    exemplo, no caso da padaria, dizemos que seu
-    Genival contratou mais funcionários, mas saber
-    quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a
-    empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
 
-Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa selecionada. E para ajudar na organização do texto, indicamos uma abordagem em 3 etapas:
+# Conclusão
 
--   **Introdução**: comece com um parágrafo apresentando a empresa (nome, o que faz, tempo de existência, o dono, funcionários,
-    etc);
--   **Situação-problema**: Aborde em detalhes como a empresa funciona, procurando seguir uma
-    ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa
-    diferente que for explicar (como faria em uma redação);
--   **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia
-    ajudar a resolvê-los.
+**Achar soluções para os problemas ditados acima.**
 
-# Descrição da proposta
-
-Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá **explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará**. Pense nesse texto como uma **introdução ao seu cliente** do que você pretende fazer por ele, para que ele confirme se realmente está dentro do
-desejado e permita sua continuidade.
-
-**Alguns pontos importantes a se destacar são:**
-
--   **Qual o foco de ação do software** relacionado com os problemas levantados na análise da situação-problema. O que realmente o software vai fazer. Por exemplo, o foco de ação do Gmail é permitir o envio e recebimento de e-mails.
--   **Os níveis de usuário do sistema**. Somente o gestor tem acesso? E os funcionários? Talvez seja para ambos, ou para funcionários de cargos
-    diferentes, etc.
--   **O que poderá ser feito no software**.Apenas o principal, sem pensar em
-    telas ou detalhes específicos, pois isso será feito em outro momento.
-    -   **Se houver mais de um nível de usuário**, ressaltar as diferenças entre
-        eles na descrição da proposta.
-
-Tenha em mente que essa é uma etapa relativamente breve. Não é necessário um texto gigantesco, apenas dar uma noção do funcionamento do sistema. Mais adiante
-precisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer algo que permita ao cliente nos dizer se estamos no caminho certo.
+Parágrafo 1
