@@ -1,6 +1,8 @@
-# Projeto Integrador - Modelo
+# Projeto Integrador - Animais IFC
 
 Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
+
+Alunos: Ana Paula de Souza e Ana Luiza Dias da Rocha - 3info1
 
 Professores: [Marco André Mendes](github.com/marcoandre) e [Alann Perini](https://github.com/AlannKPerini).
 
@@ -25,7 +27,7 @@ Links do projeto:
 
 # Modelos de Sistemas
 
-**Nessa parte a equipe deve escolher um dos modelos de sistemas para desenvolver o projeto. Ao escolher, escreva uma breve descrição do sistema e o motivo da escolha e pode apagar os outros modelos.**
+**Nosso modelo escolhido foi o gerenciamento de vendas para uma padaria, para podermos aplicar a nossa ideia de um site de adoção de animais do no IFC Araquari. O intuito do site é ajudar os animais que ficam perdidos dentro do instituto, e fazendo essa divulgação procurar lares para esses animais, fazendo assim as adoções conscientes. **
 
 ## 1- Ponto de Vendas (PDV)
 
