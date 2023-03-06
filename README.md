@@ -30,34 +30,23 @@ Links do projeto:
 
 **Nosso modelo escolhido foi o gerenciamento de vendas para uma padaria, para podermos aplicar a nossa ideia de um site de adoção de animais do no IFC Araquari. O intuito do site é ajudar os animais que ficam perdidos dentro do instituto, e fazendo essa divulgação procurar lares para esses animais, fazendo assim as adoções conscientes.**
 
-## 1- Ponto de Vendas (PDV)
+## 1- Animais IFC
 
-**Gerenciamento de vendas para uma padaria**
+**Adoção de animais abandonados no campus de Araquari**
 
-O nosso cliente, Sr. Genival, tem uma padaria de bairro chamada padaria Pão Genial e, devido a qualidade de seus produtos, ela está crescendo rapidamente. Recentemente, ele contratou mais funcionários para atendimento, caixa, panificação, etc.
-Assim, atualmente, ele consegue concentrar seus esforços para melhorar a gestão da padaria. Para isso, ele quer instalar um sistema de controle de vendas que permita ao caixa lançar as vendas realizadas. Como sua intenção
-é melhorar a gestão do negócio, é muito importante que ele consiga ter
-relatórios, como por exemplo, de vendas.
+Os alunos da instituição sempre ajudaram os animais que ficam por ali perdidos, que vieram da rua. A divulgação desses animais era sempre feita pelo instagram. Com a grande crescimento de aparições de novos animais abandonadas (especialmente cachorros), foi vista uma necessidade de criação de um site para administrar e fazer uma melhor divulgação.
 
-## 2- Empréstimo
+#  Introdução
 
-**Gerenciamento de uma biblioteca**
+**Explicação detalhada sobre o funcionamenento do site**
 
-Uma ONG, chamada Sala Arco Íris, ajuda crianças de baixa renda em sua educação básica. Atualmente, recebeu uma doação de mais de 1000 livros e está montando a sua biblioteca. Eles querem emprestar os livros para as crianças e os pais das crianças. Apesar de
-terem um computador e as estantes necessárias à disposição nessa nova biblioteca, não possuem verba suficiente para um leitor de impressão digital ou para produção
-de carteirinhas para todas as crianças. Para isso, eles precisam de um sistema que gerencie todo o acervo, empréstimos, livros disponíveis, etc. mas que isso ocorra de maneira simples e sem necessidade de novos gastos. Também é importante que haja relatórios, permitindo o controle dos empréstimos e dos livros disponíveis no acervo.
-
-## 3- Ordem de Serviço (O.S.)
-
-**Manutenção de computadores**
-
-Sr. Sálvio, nosso cliente, fez um curso de manutenção de celulares e smartphones e decidiu abrir um negócio, onde ele é responsável pelos consertos e sua esposa Marília realiza os atendimentos aos clientes. Com sua visão empreendedora, ele sentiu a necessidade de um software que auxilie
-sua esposa nas tarefas diárias. Para isso, ele deseja um sistema que gerencie os clientes, orçamentos, serviços e retirada dos equipamentos. Sendo um negócio pequeno, é muito importante que ele consiga ter relatórios que lhe ajudem na gestão da
-empresa, como dos status dos serviços.
+Paragráfo 1
 
 # Situação Problema
 
-**Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.**
+**Descrição dos problemas que envolvem a empresa num todo**
+Paragráfo 1
+
 
 ![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
 
