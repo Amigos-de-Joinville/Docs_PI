@@ -28,7 +28,7 @@ Links do projeto:
 
 # Modelos de Sistemas
 
-**Nosso modelo escolhido foi o gerenciamento de vendas para uma padaria, para podermos aplicar a nossa ideia de um site de adoção de animais do no IFC Araquari. O intuito do site é ajudar os animais que ficam perdidos dentro do instituto, e fazendo essa divulgação procurar lares para esses animais, fazendo assim as adoções conscientes. ***
+**Nosso modelo escolhido foi o gerenciamento de vendas para uma padaria, para podermos aplicar a nossa ideia de um site de adoção de animais do no IFC Araquari. O intuito do site é ajudar os animais que ficam perdidos dentro do instituto, e fazendo essa divulgação procurar lares para esses animais, fazendo assim as adoções conscientes.**
 
 ## 1- Ponto de Vendas (PDV)
 
