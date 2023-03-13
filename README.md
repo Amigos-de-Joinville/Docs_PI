@@ -28,7 +28,7 @@ Paula e Luiza são duas amigas que sempre amaram os animais. Resgatando um gato 
 
 # Situação Problema
 
-**Descrição dos problemas que envolvem a empresa num todo**
+**Fazer um parágrado descrevendo o funcionamento da empresa aqui**
 
 <h2>Problemas:</h2>
 
@@ -42,6 +42,7 @@ A falta de monitoramento e fiscalização pode permitir que animais sejam adotad
 **Falta de transparência no processo de adoção:**
 Muitas vezes, os adotantes não recebem informações suficientes sobre o animal, como histórico médico, comportamental e de alimentação, o que pode levar a problemas após a adoção. Para isso, é necessário fornecer informações detalhadas sobre o animal para o melhor conhecimento do adotante.
 
+<h2>Casos de Uso</h2>
 
 ![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
 
