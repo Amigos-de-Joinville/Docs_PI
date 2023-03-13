@@ -31,20 +31,21 @@ Paula e Luiza são duas amigas que sempre amaram os animais. Resgatando um gato 
 # Situação Problema
 
 **Descrição dos problemas que envolvem a empresa num todo**
-Parágrafo 1
+<h2>Problemas:</h2>
+Divulgação - Geralmente muitos animais ficam abandonados por muito tempo nas ruas. Ou ainda são abandonados pelos próprios tutores. Se tiver uma boa divulgação desses animais, a procura de lar para eles ficará mais fácil, já que estará na internet.
 
-Parágrafo 2
+Documentação para a adoção -  Um grande problema que ocorre nas adoções, é referente aos tutores, que muitas vezes não responsáveis. Para a adoção ser segura, deverá ser cobrado toda a documentação da pessoa interessada a adotar. Logo depois, o site deverá retornar a aprovação ou negação da adoção.
 
-Parágrafo 3
-
+Localização 
 
 ![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
 
 
-
-
 # Conclusão
+
+Diante dos problemas deferidos acima, o nosso site deverá inserir de forma rápida logo assim que cada novo animal perdido for encontrado, assim será as chances do animal achar um lar são mais altas. 
+O site deverá cobrar toda uma documentação quando o usuário do site solicitar uma adoção. Após o usuário enviar toda a documentação, o sistema deverá analisar o pedido, e deferir a aprovação ou negar a adoção.
+
 
 **Achar soluções para os problemas ditados acima.**
 
-Parágrafo 1
