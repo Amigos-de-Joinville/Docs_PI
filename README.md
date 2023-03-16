@@ -16,7 +16,7 @@ Links do projeto:
 
 # Modelos de Sistemas
 
-A base do projeto foi inspirada no modelo ponto de vendas (PDV)
+A base do nosso projeto foi inspirada no modelo ponto de vendas (PDV). Desde o início queríamos fazer o site referente a adoções de animais, visto que temos bastante familiarização do assunto, já que em anos anteriores tivemos a chance de trabalhar com esse modelo de site. E o modelo que mais se encaixa nesse quesito de realizar uma "compra" do animal, é o (PVD).
 
 
 #  Introdução
@@ -28,7 +28,6 @@ Paula e Luiza são duas amigas que sempre amaram os animais. Resgatando um gato 
 
 # Situação Problema
 
-**Fazer um parágrado descrevendo o funcionamento da empresa aqui**
 
 <h2>Problemas:</h2>
 
@@ -42,12 +41,15 @@ A falta de monitoramento e fiscalização pode permitir que animais sejam adotad
 **Falta de transparência no processo de adoção:**
 Muitas vezes, os adotantes não recebem informações suficientes sobre o animal, como histórico médico, comportamental e de alimentação, o que pode levar a problemas após a adoção. Para isso, é necessário fornecer informações detalhadas sobre o animal para o melhor conhecimento do adotante.
 
-<h2>Casos de Uso</h2>
-
-![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
-
 
 # Conclusão
 
 Diante dos problemas deferidos acima, o site deverá atualizar rapidamente a medida que o animal desaparecido for encontrado, assim as chances do animal achar um lar serão mais altas. 
 O site deverá cobrar toda uma documentação quando o usuário do site solicitar uma adoção. Após o usuário enviar toda a documentação, o sistema deverá analisar o pedido, e deferir a aprovação ou negar a adoção.
+
+#  Descrição da proposta
+
+-   **Qual o foco de ação do software**: o foco do software é promover e divulgar a adoção de animias perdidos ou abandonados na rua.
+-   **Os níveis de usuário do sistema**: As donas da ONG juntamente com funcinários selecionados terão acesso ao sistema de forma administradora. Já os usuários do site terão algumas funcionalides restritas (não poderão atualizar a saída e chegada de novois animais).
+-   **O que poderá ser feito no software**: Poderá ter a visualização de animais que poderão ser adotados, e também todas as informações necessárias do animias. O usuário se aprovado pelo sistema, poderá adotar o animal. Opçẽs para ajudar a ONG financeiramente serão possíveis, e o usuário poderá também conhecer mais sobre a ONG, e ter acesso a sua conta.
+
