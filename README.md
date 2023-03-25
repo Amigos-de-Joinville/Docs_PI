@@ -53,7 +53,7 @@ O site deverá cobrar toda uma documentação quando o usuário do site solicita
 
 #  Descrição da proposta
 
--   **Qual o foco de ação do software**: <p align="justify">o foco do software é promover e divulgar a adoção de animias perdidos ou abandonados na rua.
+-   **Qual o foco de ação do software**: <p align="justify">O foco do software é promover e divulgar a adoção de animias perdidos ou abandonados na rua.
 -   **Os níveis de usuário do sistema**: <p align="justify">As donas da ONG juntamente com funcinários selecionados terão acesso ao sistema de forma administradora. Já os usuários do site terão algumas funcionalides restritas (não poderão atualizar a saída e chegada de novois animais).
 -   **O que poderá ser feito no software**: <p align="justify">O usuário poderá acessar o site fazendo ou não o login, e caso não tenha poderá se cadastrar. Então poderá visualizar as páginas disponivéis: a home, dos animais cadastrados, das informações da ONG, das minhas informações (conta), e da estática de animais adotados por mês. Caso o usuário se interesse por algum animal, ele deverá enivar toda a documentação necessária que o site requere. Se aprovado, o usuário poderá agendar a retirada do animal na ONG. Se reprovado, deverá esperar 1 dia para poder enviar a documentação novamente. 
 
