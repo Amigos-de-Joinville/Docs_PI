@@ -33,6 +33,8 @@ Links do projeto:
 
 <h2>Problemas:</h2>
 
+**A chegada do animal:** <p align="justify">Vemos por aí, principalmente nas ruas, muitos cachorros e gatos abandonados. O problema então seria como que esses animais chegariam até a ONG. Caso alguma das donas avistassem esses animais, rapidamente eles seriam levados até a ONG. Já se outra pessoa avistasse e queira ajudar, ela deverá comunicar a ONG, e assim que possível ela ou a ONG fariam o resgate. 
+
 **Divulgação:** <p align="justify">A falta de divulgação de animais em um sistema de adoção é um problema que pode dificultar a adoção de animais, pois muitas vezes as pessoas não sabem que existem animais disponíveis para adoção. Portanto, é fundamental a divulgação em midias sociais (como Instagram, Facebook, Twitter e TikTok). também vale ressaltar a importância de manter as informações sobre os animais disponíveis para adoção atualizadas regularmente, e que os adotantes em potencial tenham acesso a fotos e descrições detalhadas dos animais.
 
 **Falta de recursos e infraestrutura:** <p align="justify">Uma das grandes dificuldades em um sistema de adoção de animais, é mantê-los sob os cuidados necessários para atender às suas necessidades básicas (como água, alimentos, castração, atendimento veterinário e  infraestrutura adequada) até o momento da adoção. Para isso, é importante estabelecer parcerias com organizações e veterinários locais para garantir o bem-estar dos animais e melhorar a qualidade dos cuidados prestados.
@@ -46,12 +48,12 @@ Links do projeto:
 
 # Conclusão
 
-<p align="justify">Diante dos problemas deferidos acima, o site deverá atualizar rapidamente a medida que o animal desaparecido for encontrado, assim as chances do animal achar um lar serão mais altas. 
+<p align="justify">Diante dos problemas deferidos acima, o site deverá atualizar rapidamente a medida que o animais abandonados forem resgatados. No caso de animais perdidos, o sistema deverá manter o animal durante 15 dias no sistema, mas se nesse perído o dono não for encontrado, o animal ficará disponível para adoção.
 O site deverá cobrar toda uma documentação quando o usuário do site solicitar uma adoção. Após o usuário enviar toda a documentação, o sistema deverá analisar o pedido, e deferir a aprovação ou negar a adoção.
 
 #  Descrição da proposta
 
 -   **Qual o foco de ação do software**: <p align="justify">o foco do software é promover e divulgar a adoção de animias perdidos ou abandonados na rua.
 -   **Os níveis de usuário do sistema**: <p align="justify">As donas da ONG juntamente com funcinários selecionados terão acesso ao sistema de forma administradora. Já os usuários do site terão algumas funcionalides restritas (não poderão atualizar a saída e chegada de novois animais).
--   **O que poderá ser feito no software**: <p align="justify">Poderá ter a visualização de animais que poderão ser adotados, e também todas as informações necessárias do animias. O usuário se aprovado pelo sistema, poderá adotar o animal. Opçẽs para ajudar a ONG financeiramente serão possíveis, e o usuário poderá também conhecer mais sobre a ONG, e ter acesso a sua conta.
+-   **O que poderá ser feito no software**: <p align="justify">O usuário poderá acessar o site fazendo ou não o login, e caso não tenha poderá se cadastrar. Então poderá visualizar as páginas disponivéis: a home, dos animais cadastrados, das informações da ONG, das minhas informações (conta), e da estática de animais adotados por mês. Caso o usuário se interesse por algum animal, ele deverá enivar toda a documentação necessária que o site requere. Se aprovado, o usuário poderá agendar a retirada do animal na ONG. Se reprovado, deverá esperar 1 dia para poder enviar a documentação novamente. 
 
