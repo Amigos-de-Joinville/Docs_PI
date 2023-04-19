@@ -64,3 +64,27 @@ O site deverá cobrar toda uma documentação quando o usuário do site solicita
 -   **RN004**: <p align="justify"> Deve ser realizado um acompanhamento pós-adoção para garantir que o animal esteja sendo bem cuidado e para oferecer suporte adicional, se necessário.
 -   **RN004**: <p align="justify"> Em caso de devolução dos animais, a política de devolução deverá ser clara, quando em problemas de saúde ou comportamentais, ou de mudanças nas circunstâncias do adotante que impeçam a manutenção do animal.
 -   **RN006**: <p align="justify"> Para registro de animais para doação deve-se fornecer informações claras e precisas sobre os animais disponíveis para adoção, incluindo idade, histórico de saúde, comportamento e necessidades especiais, sendo transparente em relação às suas políticas e procedimentos.
+
+# Requisitos Funcionais 
+<h2>Entradas:</h2>
+
+- **RF001** <p align="justify"> Registro de animais disponíveis para adoção: O sistema deve permitir o registro de dados sobre animais disponíveis para adoção. Dados necessários: tipo de animal (cão, gato, etc.), raça, idade, sexo, cor, tamanho, histórico médico e comportamental.
+- **RF002** <p align="justify"> Informações do adotante: O sistema deve permitir o registro de informações sobre o adotante. Dados necessários: nome, endereço, telefone, e-mail, idade, histórico de adoção de animais, preferências de animal, disponibilidade de espaço em casa e outras informações relevantes.
+- **RF003** <p align="justify"> Requisitos do adotante: O sistema deve permitir que os adotantes informem suas preferências de animal. Dados necessários: tipo de animal desejado, tamanho, idade, temperamento e outras informações relevantes.
+- **RF004** <p align="justify"> Agendamento de visitas: O sistema deve permitir que os adotantes agendem visitas para conhecer os animais em um determinado horário, e que o abrigo ou centro de adoção possa agendar visitas correspondentes. Dados necessários: data e horário da visita agendada.
+
+<h2>Processos:</h2>
+
+- **RF005** <p align="justify"> Verificação de disponibilidade e compatibilidade: O sistema deve permitir que os funcionários do abrigo verifiquem a disponibilidade do animal e a compatibilidade com o adotante, com base nas informações registradas no sistema.
+- **RF006** <p align="justify"> Triagem do adotante: O sistema deve permitir que o abrigo realize uma triagem do adotante, incluindo um questionário de adoção e uma entrevista, para garantir que ele esteja apto a adotar um animal e possua a capacidade de cuidar adequadamente do animal.
+- **RF007** <p align="justify"> Avaliação do ambiente doméstico: O sistema deve permitir que o abrigo avalie o ambiente doméstico do adotante para garantir que é um ambiente seguro e adequado para o animal.
+- **RF008** <p align="justify"> Adoção: O sistema deve permitir que o abrigo realize o processo de adoção, incluindo o preenchimento de documentos e o pagamento de taxas de adoção.
+- **RF009** <p align="justify">Registro de dados: O sistema deve permitir que os dados do animal e do adotante sejam registrados e armazenados no sistema.
+
+<h2>Saídas:</h2>
+
+- **RF010** <p align="justify"> Documento de adoção: O sistema deve gerar um documento de adoção para o adotante. Dados necessários: nome do animal, data de adoção, taxa de adoção.
+- **RF011** <p align="justify"> Registro de adoção: O sistema deve atualizar o registro do animal como adotado e retirá-lo da lista de animais disponíveis para adoção. Dados necessários: 
+- **RF012** <p align="justify"> Informações do animal adotado: O sistema deve fornecer informações detalhadas sobre o animal adotado. Dados necessários: histórico médico, informações de vacinação, instruções sobre cuidados e treinamento, bem como quaisquer outros detalhes relevantes sobre o animal.
+- **RF013** <p align="justify"> Informações de contato do adotante: O sistema deve armazenar informações de contato do adotante para futuras atualizações e verificações de bem-estar do animal adotado. Dados necessários:
+
