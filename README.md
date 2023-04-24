@@ -75,11 +75,13 @@ O site deverá cobrar toda uma documentação quando o usuário do site solicita
 
 <h2>Processos:</h2>
 
-- **RF005** <p align="justify"> Verificação de disponibilidade e compatibilidade: O sistema deve permitir que os funcionários do abrigo verifiquem a disponibilidade do animal e a compatibilidade com o adotante, com base nas informações registradas no sistema.
-- **RF006** <p align="justify"> Triagem do adotante: O sistema deve permitir que o abrigo realize uma triagem do adotante, incluindo um questionário de adoção e uma entrevista, para garantir que ele esteja apto a adotar um animal e possua a capacidade de cuidar adequadamente do animal.
-- **RF007** <p align="justify"> Avaliação do ambiente doméstico: O sistema deve permitir que o abrigo avalie o ambiente doméstico do adotante para garantir que é um ambiente seguro e adequado para o animal.
+
+- **RF006** <p align="justify"> Triagem do adotante: O sistema deve permitir que o abrigo realize uma triagem do adotante, incluindo um questionário de adoção e uma entrevista, para garantir que ele esteja apto a adotar um animal e possua a capacidade de cuidar adequadamente do animal. Dados necessários: Horário de trabalho; Declaração de renda; Comprovante de residência.
+- **RF007** <p align="justify"> Avaliação do ambiente doméstico: O sistema deve permitir que o abrigo avalie o ambiente doméstico do adotante para garantir que é um ambiente seguro e adequado para o animal. Dados necessários: Características da moradia.
 - **RF008** <p align="justify"> Adoção: O sistema deve permitir que o abrigo realize o processo de adoção, incluindo o preenchimento de documentos e o pagamento de taxas de adoção.
-- **RF009** <p align="justify">Registro de dados: O sistema deve permitir que os dados do animal e do adotante sejam registrados e armazenados no sistema.
+- **RF009** <p align="justify"> Registro de dados: O sistema deve permitir que os dados do animal e do adotante sejam registrados e armazenados no sistema.
+
+
 
 <h2>Saídas:</h2>
 
@@ -88,3 +90,20 @@ O site deverá cobrar toda uma documentação quando o usuário do site solicita
 - **RF012** <p align="justify"> Informações do animal adotado: O sistema deve fornecer informações detalhadas sobre o animal adotado. Dados necessários: histórico médico, informações de vacinação, instruções sobre cuidados e treinamento, bem como quaisquer outros detalhes relevantes sobre o animal.
 - **RF013** <p align="justify"> Informações de contato do adotante: O sistema deve armazenar informações de contato do adotante para futuras atualizações e verificações de bem-estar do animal adotado. Dados necessários:
 
+# Requisitos Não Funcionais 
+
+- **RFN1** <p align="justify"> Segurança: O sistema deve ser seguro e proteger as informações pessoais dos usuários e dos animais cadastrados. O acesso ao sistema deve ser restrito a usuários autorizados e as informações devem ser armazenadas de forma segura.
+
+- **RFN2** <p align="justify"> Escalabilidade: O sistema deve ser capaz de lidar com um grande número de usuários e animais cadastrados. O sistema deve ser projetado de forma escalável para garantir que possa crescer e se adaptar ao aumento do tráfego.
+
+- **RFN3** <p align="justify"> Performance: O sistema deve ser rápido e responsivo, permitindo que os usuários acessem e atualizem as informações com rapidez e eficiência.
+
+- **RFN4** <p align="justify">Disponibilidade: O sistema deve estar disponível e funcionando o tempo todo, com um tempo de inatividade mínimo para garantir que os usuários possam acessá-lo sempre que necessário.
+
+- **RFN5** <p align="justify">regulamentações aplicáveis, como a proteção de dados pessoais e os regulamentos de adoção de animais.
+
+- **RFN6** <p align="justify">Banco de Dados: O sistema será implementado com MySQL.
+
+- **RFN7** <p align="justify"> Framework: Os frameworks utilizados para o desenvolvimento do sistema serão VueJS e React Native.
+
+- **RFN8** <p align="justify"> Linguagens: O sistema deverá ser desenvolvido com as linguagens JavaScript, HTML5, e CSS3.
