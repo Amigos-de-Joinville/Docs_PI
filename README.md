@@ -92,18 +92,18 @@ O site deverá cobrar toda uma documentação quando o usuário do site solicita
 
 # Requisitos Não Funcionais 
 
-- **RFN1** <p align="justify"> Segurança: O sistema deve ser seguro e proteger as informações pessoais dos usuários e dos animais cadastrados. O acesso ao sistema deve ser restrito a usuários autorizados e as informações devem ser armazenadas de forma segura.
+- **RFN01** <p align="justify"> Segurança: O sistema deve ser seguro e proteger as informações pessoais dos usuários e dos animais cadastrados. O acesso ao sistema deve ser restrito a usuários autorizados e as informações devem ser armazenadas de forma segura.
 
-- **RFN2** <p align="justify"> Escalabilidade: O sistema deve ser capaz de lidar com um grande número de usuários e animais cadastrados. O sistema deve ser projetado de forma escalável para garantir que possa crescer e se adaptar ao aumento do tráfego.
+- **RFN02** <p align="justify"> Escalabilidade: O sistema deve ser capaz de lidar com um grande número de usuários e animais cadastrados. O sistema deve ser projetado de forma escalável para garantir que possa crescer e se adaptar ao aumento do tráfego.
 
-- **RFN3** <p align="justify"> Performance: O sistema deve ser rápido e responsivo, permitindo que os usuários acessem e atualizem as informações com rapidez e eficiência.
+- **RFN03** <p align="justify"> Performance: O sistema deve ser rápido e responsivo, permitindo que os usuários acessem e atualizem as informações com rapidez e eficiência.
 
-- **RFN4** <p align="justify">Disponibilidade: O sistema deve estar disponível e funcionando o tempo todo, com um tempo de inatividade mínimo para garantir que os usuários possam acessá-lo sempre que necessário.
+- **RFN04** <p align="justify">Disponibilidade: O sistema deve estar disponível e funcionando o tempo todo, com um tempo de inatividade mínimo para garantir que os usuários possam acessá-lo sempre que necessário.
 
-- **RFN5** <p align="justify">regulamentações aplicáveis, como a proteção de dados pessoais e os regulamentos de adoção de animais.
+- **RFN05** <p align="justify">regulamentações aplicáveis, como a proteção de dados pessoais e os regulamentos de adoção de animais.
 
-- **RFN6** <p align="justify">Banco de Dados: O sistema será implementado com MySQL.
+- **RFN06** <p align="justify">Banco de Dados: O sistema será implementado com MySQL.
 
-- **RFN7** <p align="justify"> Framework: Os frameworks utilizados para o desenvolvimento do sistema serão VueJS e React Native.
+- **RFN07** <p align="justify"> Framework: Os frameworks utilizados para o desenvolvimento do sistema serão VueJS e React Native.
 
-- **RFN8** <p align="justify"> Linguagens: O sistema deverá ser desenvolvido com as linguagens JavaScript, HTML5, e CSS3.
+- **RFN08** <p align="justify"> Linguagens: O sistema deverá ser desenvolvido com as linguagens JavaScript, HTML5, e CSS3.
