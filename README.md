@@ -33,44 +33,42 @@ Links do projeto:
 
 <h2>Problemas:</h2>
 
-**A chegada do animal:** <p align="justify">Vemos por aí, principalmente nas ruas, muitos cachorros e gatos abandonados. O problema então seria como que esses animais chegariam até a ONG. Caso alguma das donas avistassem esses animais, rapidamente eles seriam levados até a ONG. Já se outra pessoa avistasse e queira ajudar, ela deverá comunicar a ONG, e assim que possível ela ou a ONG fariam o resgate. 
+**A chegada do animal:** <p align="justify"> Ao localizar um animal perdido ou abandonado, iremos acionar uma de nossas atendentes para levá-lo até a ONG. O cadastro desse animal é feito por intermédio de planilhas, realizado pelas nossas próprias atendentes, o que se torna cansativo visto que é feito a mão.
 
-**Divulgação:** <p align="justify">A falta de divulgação de animais em um sistema de adoção é um problema que pode dificultar a adoção de animais, pois muitas vezes as pessoas não sabem que existem animais disponíveis para adoção. Portanto, é fundamental a divulgação em midias sociais (como Instagram, Facebook, Twitter e TikTok). também vale ressaltar a importância de manter as informações sobre os animais disponíveis para adoção atualizadas regularmente, e que os adotantes em potencial tenham acesso a fotos e descrições detalhadas dos animais.
+**Divulgação:** <p align="justify"> Assim que o animal é alocado na ONG, é feita uma divulgação para assim buscar adotantes. Utiliza-se as redes sociais como Instagram e Facebook para realizar as postagens dos animais, contendo foto e as informações pessoais.
 
-**Falta de recursos e infraestrutura:** <p align="justify">Uma das grandes dificuldades em um sistema de adoção de animais, é mantê-los sob os cuidados necessários para atender às suas necessidades básicas (como água, alimentos, castração, atendimento veterinário e  infraestrutura adequada) até o momento da adoção. Para isso, é importante estabelecer parcerias com organizações e veterinários locais para garantir o bem-estar dos animais e melhorar a qualidade dos cuidados prestados.
+**Falta de recursos e infraestrutura:** <p align="justify">Devido ao grande número de animais que a ONG aloca, é visto então uma necessidade de um alto investimento, com os gastos dos animais (água, ração, vacinas...). E como a ONG não possui seu próprio site, fica difícil ganhar visibilidade para obter parcerias com grandes empresas.
 
 **Documentação:** 
-<p align="justify">A falta de monitoramento e fiscalização pode permitir que animais sejam adotados por pessoas que não têm condições de cuidar deles adequadamente. Para isso, é importante exigir documentação necessária, realizar entrevistas com os adotantes e verificar suas condições de vida e experiência com animais.
+<p align="justify"> Para adotar algum animal da ONG, a pessoa responsável deve comparacer ao local, e responder a algumas perguntas das nossas atendentes, e assim será anotado os dados na planilha de adotantes. A pessoa deve se encaixar nas perguntas deferidas para assim realizar a adoção.
 
 **Falta de transparência no processo de adoção:**
-<p align="justify">Muitas vezes, os adotantes não recebem informações suficientes sobre o animal, como histórico médico, comportamental e de alimentação, o que pode levar a problemas após a adoção. Para isso, é necessário fornecer informações detalhadas sobre o animal para o melhor conhecimento do adotante.
+<p align="justify"> Como os dados dos animais estão adotados numa planilha, fica exposto a riscos de perda de dados, então a pessoa interessada em adotar um animal da ONG muitas vezes não tem todo acesso as informações e aos documentos do animal. 
 
 
 **Conclusão**
 
-<p align="justify">Diante dos problemas deferidos acima, o site deverá atualizar rapidamente a medida que o animais abandonados forem resgatados. No caso de animais perdidos, o sistema deverá manter o animal durante 15 dias no sistema, mas se nesse perído o dono não for encontrado, o animal ficará disponível para adoção.
-O site deverá cobrar toda uma documentação quando o usuário do site solicitar uma adoção. Após o usuário enviar toda a documentação, o sistema deverá analisar o pedido, e deferir a aprovação ou negar a adoção.
+<p align="justify">Diante da visão anterior, é notório uma falta de segurança nos dados tanto dos animais quanto dos adotantes. A planilha como fonte de armanazemento de dados para uma ONG deste tamanho, não atende as todas as suas necessidades. E o modo como esses animais são divulgados somente pelas redes sociais, se vê uma perda de público e de interesse por meio de empressas para então poder realizar parcerias. A falta de investimento é um problema que pode ficar cada vez pior ao longo do tempo, se não a ONG não tiver ajuda de parcerias em breve.
+
 
 #  Descrição da proposta
 
-<p align="justify">O foco do software é promover, divulgar e gerenciar a adoção de animais perdidos ou abandonados na rua.
+<p align="justify">Devido aos problemas citados acima, foi pensando em desenvolver um software em que o foco é gerenciar e promover a adoção de animais perdidos ou abandonados na rua.
 
-<p align="justify">As donas da ONG, juntamente com funcionários selecionados, terão acesso ao sistema de forma administradora. Já os usuários do site terão algumas funcionalides restritas (não poderão atualizar a saída e chegada de novos animais).
+<p align="justify">As donas da ONG, juntamente com as atendentes, terão acesso ao sistema de forma administradora. Poderá ser feito o cadastro de cada novo animal que chegar na ONG, e assim os dados dos animais ficarão salvos no sistema. Caso o animal for adotado, ele poderá ser excluído do sistema, porém ele ficará mantido na parte de Adotados. O sistema terá um status para o acompanhamento do animal pós adoção, assim, as atendentes terão acesso a essas informações se o animal está se adptando ao novo lar.
+
+Já os visitantes poderão acessar o site, visualizando os animais disponíveis para adoção, e caso se interessem, deveram realizar o login ou cadastro no site, para poder ter acesso as funcionalides do perfil de adotante. 
 
 <p align="justify">O usuário poderá acessar o site fazendo ou não o login, e caso não tenha poderá se cadastrar. Então poderá visualizar as páginas disponivéis: a home, dos animais cadastrados, das informações da ONG, das minhas informações (conta), e da estática de animais adotados por mês. Caso o usuário se interesse por algum animal, ele deverá enivar toda a documentação necessária que o site requere. Se aprovado, o usuário poderá agendar a retirada do animal na ONG. Se reprovado, deverá esperar 1 dia para poder enviar a documentação novamente. 
 
-TODO: COMO O ANIMAL É CADASTRADO? STATUS DE DISPONIBILIDADE DO ANIMAL?
-
-TODO: CADASTRO DE ADOTANTES. DIFERENCIAR DO VISITANTE. ADOTANTE É MAIOR DE IDADE.
 
 #  Regras de Negócio
--<p align="justify"> **RN001:** Para registro de adotantes deverá preencher cadastro seguindo os critérios claros de elegibilidade para adotantes de animais, tais como idade mínima, disponibilidade de tempo para cuidar do animal, espaço adequado para acomodar o animal, entre outros.
--   **RN002**: <p align="justify"> Para realizar um processo claro e transparente de adoção, deve-se incluir um formulário de inscrição, entrevista e avaliação do candidato, e verificação de referências.
--   TODO: O ADOTANTE PRECISA SER MAIOR DE IDADE.
--   **RN003**: <p align="justify"> No processo de adoção deverá estabelecer-se uma taxa de adoção para ajudar a cobrir os custos associados à adoção, como cuidados veterinários, alimentação e suprimentos. TODO: QUANTO?
--   **RN004**: <p align="justify"> Deve ser realizado um acompanhamento pós-adoção para garantir que o animal esteja sendo bem cuidado e para oferecer suporte adicional, se necessário. TODO: QUANTO TEMPO?
--   **RN004**: <p align="justify"> Em caso de devolução dos animais, a política de devolução deverá ser clara, quando em problemas de saúde ou comportamentais, ou de mudanças nas circunstâncias do adotante que impeçam a manutenção do animal.
--   **RN006**: <p align="justify"> Para registro de animais para doação deve-se fornecer informações claras e precisas sobre os animais disponíveis para adoção. Dados necessários: idade, histórico de saúde, comportamento e necessidades especiais, sendo transparente em relação às suas políticas e procedimentos.
+-<p align="justify"> **RN001:** Para registro de adotantes deverá preencher um cadastro seguindo os critérios claros de elegibilidade para adotantes de animais, tais como idade mínima, disponibilidade de tempo para cuidar do animal, espaço adequado para acomodar o animal, entre outros
+.<p align="justify">   **RN002**:  Para realizar a adoção, o adotante deverá obrigatoriamente ser maior de idade (18 anos)
+.<p align="justify">   **RN003**: No processo de adoção deverá estabelecer-se uma taxa de adoção para ajudar a cobrir os custos associados à adoção, como cuidados veterinários, alimentação e suprimentos. O valor da taxa será de 25 reais
+.<p align="justify">   **RN004**:  Deve ser realizado um acompanhamento pós-adoção para garantir que o animal esteja sendo bem cuidado e para oferecer suporte adicional, se necessário. O acompanhamento ficará disponível no sistema por 20 dias
+.<p align="justify">   **RN004**:  Em caso de devolução dos animais, a política de devolução deverá ser clara, quando em problemas de saúde ou comportamentais, ou de mudanças nas circunstâncias do adotante que impeçam a manutenção do animal
+.<p align="justify">   **RN006**:  Para registro de animais para doação deve-se fornecer informações claras e precisas sobre os animais disponíveis para adoção. Dados necessários: idade, histórico de saúde, comportamento e necessidades especiais, sendo transparente em relação às suas políticas e procedimentos.
 
 # Requisitos Funcionais 
 TODO: INCLUIR USUÁRIO EM TODOS
