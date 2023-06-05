@@ -1,5 +1,5 @@
 
-# Projeto Integrador - Documentação
+# Projeto Integrador - Amigos de Joinville
 ![Header](./pi.png)
 
 
@@ -25,7 +25,7 @@ Links do projeto:
 
 <h2>Amigos de Joinville</h2>
 
-<p align="justify">Paula e Luiza são duas amigas que sempre amaram os animais. Resgatando um gato ou um cachorro de vez em quando, elas decidiram realizar um sonho antigo. Em 2021, elas inauguraram uma ONG para adoção de animais em Joinville e região, para ajudar os animais que foram abandonados ou estão perdidos a acharem um lar. A ONG “Amigos de Joinville”, é divulgada somente em suas redes sociais (Instagram e Facebook). Com a grande repercussão da ONG, foi vista uma necessidade da criação de um site, para ter o melhor controle dos animais, das adoções, e fazer a avaliação dos tutores para  assim realizar a possível adoção.
+<p align="justify">Paula e Luiza são duas amigas que sempre amaram os animais. Resgatando um gato ou um cachorro de vez em quando, elas decidiram realizar um sonho antigo. Em 2021, elas inauguraram uma ONG para adoção de animais em Joinville e região, para ajudar os animais que foram abandonados ou estão perdidos a acharem um lar. A ONG “Amigos de Joinville”, é divulgada somente em suas redes sociais (Instagram e Facebook). Com a grande repercussão da ONG, foi vista uma necessidade da criação de um site, para ter o melhor controle dos animais e das adoções, e fazer a avaliação dos tutores para  assim realizar a possível adoção.
 
 
 # Situação Problema
@@ -46,49 +46,59 @@ Links do projeto:
 <p align="justify">Muitas vezes, os adotantes não recebem informações suficientes sobre o animal, como histórico médico, comportamental e de alimentação, o que pode levar a problemas após a adoção. Para isso, é necessário fornecer informações detalhadas sobre o animal para o melhor conhecimento do adotante.
 
 
-# Conclusão
+**Conclusão**
 
 <p align="justify">Diante dos problemas deferidos acima, o site deverá atualizar rapidamente a medida que o animais abandonados forem resgatados. No caso de animais perdidos, o sistema deverá manter o animal durante 15 dias no sistema, mas se nesse perído o dono não for encontrado, o animal ficará disponível para adoção.
 O site deverá cobrar toda uma documentação quando o usuário do site solicitar uma adoção. Após o usuário enviar toda a documentação, o sistema deverá analisar o pedido, e deferir a aprovação ou negar a adoção.
 
 #  Descrição da proposta
 
--   **Qual o foco de ação do software**: <p align="justify">O foco do software é promover e divulgar a adoção de animias perdidos ou abandonados na rua.
--   **Os níveis de usuário do sistema**: <p align="justify">As donas da ONG juntamente com funcinários selecionados terão acesso ao sistema de forma administradora. Já os usuários do site terão algumas funcionalides restritas (não poderão atualizar a saída e chegada de novois animais).
--   **O que poderá ser feito no software**: <p align="justify">O usuário poderá acessar o site fazendo ou não o login, e caso não tenha poderá se cadastrar. Então poderá visualizar as páginas disponivéis: a home, dos animais cadastrados, das informações da ONG, das minhas informações (conta), e da estática de animais adotados por mês. Caso o usuário se interesse por algum animal, ele deverá enivar toda a documentação necessária que o site requere. Se aprovado, o usuário poderá agendar a retirada do animal na ONG. Se reprovado, deverá esperar 1 dia para poder enviar a documentação novamente. 
+<p align="justify">O foco do software é promover, divulgar e gerenciar a adoção de animais perdidos ou abandonados na rua.
+
+<p align="justify">As donas da ONG, juntamente com funcionários selecionados, terão acesso ao sistema de forma administradora. Já os usuários do site terão algumas funcionalides restritas (não poderão atualizar a saída e chegada de novos animais).
+
+<p align="justify">O usuário poderá acessar o site fazendo ou não o login, e caso não tenha poderá se cadastrar. Então poderá visualizar as páginas disponivéis: a home, dos animais cadastrados, das informações da ONG, das minhas informações (conta), e da estática de animais adotados por mês. Caso o usuário se interesse por algum animal, ele deverá enivar toda a documentação necessária que o site requere. Se aprovado, o usuário poderá agendar a retirada do animal na ONG. Se reprovado, deverá esperar 1 dia para poder enviar a documentação novamente. 
+
+TODO: COMO O ANIMAL É CADASTRADO? STATUS DE DISPONIBILIDADE DO ANIMAL?
+
+TODO: CADASTRO DE ADOTANTES. DIFERENCIAR DO VISITANTE. ADOTANTE É MAIOR DE IDADE.
 
 #  Regras de Negócio
--   **RN001**: <p align="justify"> Para registro de adotantes deverá estabelecer critérios claros de elegibilidade para adotantes de animais, tais como idade mínima, disponibilidade de tempo para cuidar do animal, espaço adequado para acomodar o animal, entre outros.
+-<p align="justify"> **RN001:** Para registro de adotantes deverá preencher cadastro seguindo os critérios claros de elegibilidade para adotantes de animais, tais como idade mínima, disponibilidade de tempo para cuidar do animal, espaço adequado para acomodar o animal, entre outros.
 -   **RN002**: <p align="justify"> Para realizar um processo claro e transparente de adoção, deve-se incluir um formulário de inscrição, entrevista e avaliação do candidato, e verificação de referências.
--   **RN003**: <p align="justify"> No processo de adoção deverá estabelecer-se uma taxa de adoção para ajudar a cobrir os custos associados à adoção, como cuidados veterinários, alimentação e suprimentos.
--   **RN004**: <p align="justify"> Deve ser realizado um acompanhamento pós-adoção para garantir que o animal esteja sendo bem cuidado e para oferecer suporte adicional, se necessário.
+-   TODO: O ADOTANTE PRECISA SER MAIOR DE IDADE.
+-   **RN003**: <p align="justify"> No processo de adoção deverá estabelecer-se uma taxa de adoção para ajudar a cobrir os custos associados à adoção, como cuidados veterinários, alimentação e suprimentos. TODO: QUANTO?
+-   **RN004**: <p align="justify"> Deve ser realizado um acompanhamento pós-adoção para garantir que o animal esteja sendo bem cuidado e para oferecer suporte adicional, se necessário. TODO: QUANTO TEMPO?
 -   **RN004**: <p align="justify"> Em caso de devolução dos animais, a política de devolução deverá ser clara, quando em problemas de saúde ou comportamentais, ou de mudanças nas circunstâncias do adotante que impeçam a manutenção do animal.
 -   **RN006**: <p align="justify"> Para registro de animais para doação deve-se fornecer informações claras e precisas sobre os animais disponíveis para adoção. Dados necessários: idade, histórico de saúde, comportamento e necessidades especiais, sendo transparente em relação às suas políticas e procedimentos.
 
 # Requisitos Funcionais 
+TODO: INCLUIR USUÁRIO EM TODOS
+
 <h2>Entradas:</h2>
 
-- **RF001** <p align="justify"> Registro de animais disponíveis para adoção: O sistema deve permitir o registro de dados sobre animais disponíveis para adoção. Dados necessários: tipo de animal (cão, gato, etc.), raça, idade, sexo, porte, histórico médico e comportamental.
-- **RF002** <p align="justify"> Informações do adotante: O sistema deve permitir o registro de informações sobre o adotante. Dados necessários: nome, RG e CPF, endereço, telefone, e-mail, idade, histórico de adoção de animais, comprovante de residência.
-
-
+- **RF001 - Registro de animais:** O sistema deve permitir o registro de dados sobre animais disponíveis para adoção. 
+  - **Dados necessários:** tipo de animal (cão, gato, etc.), raça, idade, sexo, porte, histórico médico e comportamental.
+  - **Usuários:** gerente, atendente 
+- **RF002** <p align="justify"> Registro de adotante: O sistema deve permitir o registro de informações sobre o adotante. Dados necessários: nome, RG e CPF, endereço, telefone, e-mail, idade, histórico de adoção de animais, comprovante de residência.
 - **RF003** <p align="justify"> Requisitos do adotante: O sistema deve permitir que os adotantes informem suas preferências de animal. Dados necessários: tipo de animal desejado, tamanho, idade, temperamento e outras informações relevantes.
 - **RF004** <p align="justify"> Agendamento de visitas: O sistema deve permitir que os adotantes agendem visitas para conhecer os animais em um determinado horário, e que o abrigo ou centro de adoção possa agendar visitas correspondentes. Dados necessários: data e horário da visita agendada.
 
-<h2>Processos:</h2>
-
-
+<h2>Processamento:</h2>
+- TODO: SOLICITAÇÃO DE ADOÇÃO
+- - TODO: AUTENTICAÇÃO:  
 - **RF006** <p align="justify"> Triagem do adotante: O sistema deve permitir que o abrigo realize uma triagem do adotante, incluindo um questionário de adoção e uma entrevista, para garantir que ele esteja apto a adotar um animal e possua a capacidade de cuidar adequadamente do animal. Dados necessários: Horário de trabalho; Declaração de renda; Comprovante de residência.
 - **RF007** <p align="justify"> Avaliação do ambiente doméstico: O sistema deve permitir que o abrigo avalie o ambiente doméstico do adotante para garantir que é um ambiente seguro e adequado para o animal. Dados necessários: Características da moradia (tamanho do terreno, presença ou não de muros, e portões, etc.)
-- **RF008** <p align="justify"> Adoção: O sistema deve permitir que o abrigo realize o processo de adoção, incluindo o preenchimento de documentos e o pagamento de taxas de adoção. Dados necessários: Dados descritos na RF002 e comprovante de pagamento das taxas de adoção.
+- **RF008** <p align="justify"> EFETIVAÇÃO Adoção: O sistema deve permitir que o abrigo realize o processo de adoção, incluindo o preenchimento de documentos e o pagamento de taxas de adoção. Dados necessários: Dados descritos na RF002 e comprovante de pagamento das taxas de adoção.
 
 
-<h2>Saídas:</h2>
+<h2>Saída:</h2>
 
 - **RF010** <p align="justify"> Documento de adoção: O sistema deve gerar um documento de adoção para o adotante. Dados necessários: nome do animal, data de adoção, taxa de adoção.
 - **RF011** <p align="justify"> Registro de adoção: O sistema deve atualizar o registro do animal como adotado e retirá-lo da lista de animais disponíveis para adoção. Dados necessários: Comprovante de adoção.
 - **RF012** <p align="justify"> Informações do animal adotado: O sistema deve fornecer informações detalhadas sobre o animal adotado. Dados necessários: histórico médico, informações de vacinação, instruções sobre cuidados e treinamento, bem como quaisquer outros detalhes relevantes sobre o animal.
 - **RF013** <p align="justify"> Informações de contato do adotante: O sistema deve armazenar informações de contato do adotante para futuras atualizações e verificações de bem-estar do animal adotado. Dados necessários: Telefone e email do adotante.
+- TODO: RELATÓRIOS DE: ADOÇÕES POR PERIODO, ANIMAIS SEM ADOÇÃO, ETC.
 
 # Requisitos Não Funcionais 
 
@@ -104,6 +114,5 @@ O site deverá cobrar toda uma documentação quando o usuário do site solicita
 
 - **RFN06** <p align="justify">Banco de Dados: O sistema será implementado com MySQL.
 
-- **RFN07** <p align="justify"> Framework: Os frameworks utilizados para o desenvolvimento do sistema serão VueJS e React Native.
+- **RFN07** <p align="justify"> Desenvolvimento: Os frameworks utilizados para o desenvolvimento do sistema serão VueJS, React Native para o FrotEnd e Django para backend.
 
-- **RFN08** <p align="justify"> Linguagens: O sistema deverá ser desenvolvido com as linguagens JavaScript, HTML5, e CSS3.
