@@ -57,13 +57,13 @@ Links do projeto:
 
 <p align="justify">As donas da ONG, juntamente com as atendentes, terão acesso ao sistema de forma administradora. Poderá ser feito o cadastro de cada novo animal que chegar na ONG, e assim os dados dos animais ficarão salvos no sistema. Caso o animal for adotado, ele poderá ser excluído do sistema, porém ele ficará mantido na parte de Adotados. O sistema terá um status para o acompanhamento do animal pós adoção, assim, as atendentes terão acesso a essas informações se o animal está se adptando ao novo lar.
 
-Já os visitantes poderão acessar o site, visualizando os animais disponíveis para adoção, e caso se interessem, deveram realizar o login ou cadastro no site, para poder ter acesso as funcionalides do perfil de adotante. 
+<p align="justify">Já os visitantes poderão acessar o site, visualizando os animais disponíveis para adoção, e caso se interessem, deveram realizar o login ou cadastro no site, para poder ter acesso as funcionalides do perfil de adotante. 
 
 <p align="justify">O usuário poderá acessar o site fazendo ou não o login, e caso não tenha poderá se cadastrar. Então poderá visualizar as páginas disponivéis: a home, dos animais cadastrados, das informações da ONG, das minhas informações (conta), e da estática de animais adotados por mês. Caso o usuário se interesse por algum animal, ele deverá enivar toda a documentação necessária que o site requere. Se aprovado, o usuário poderá agendar a retirada do animal na ONG. Se reprovado, deverá esperar 1 dia para poder enviar a documentação novamente. 
 
 
 #  Regras de Negócio
--<p align="justify"> **RN001:** Para registro de adotantes deverá preencher um cadastro seguindo os critérios claros de elegibilidade para adotantes de animais, tais como idade mínima, disponibilidade de tempo para cuidar do animal, espaço adequado para acomodar o animal, entre outros
+.<p align="justify"> **RN001:** Para registro de adotantes deverá preencher um cadastro seguindo os critérios claros de elegibilidade para adotantes de animais, tais como idade mínima, disponibilidade de tempo para cuidar do animal, espaço adequado para acomodar o animal, entre outros
 .<p align="justify">   **RN002**:  Para realizar a adoção, o adotante deverá obrigatoriamente ser maior de idade (18 anos)
 .<p align="justify">   **RN003**: No processo de adoção deverá estabelecer-se uma taxa de adoção para ajudar a cobrir os custos associados à adoção, como cuidados veterinários, alimentação e suprimentos. O valor da taxa será de 25 reais
 .<p align="justify">   **RN004**:  Deve ser realizado um acompanhamento pós-adoção para garantir que o animal esteja sendo bem cuidado e para oferecer suporte adicional, se necessário. O acompanhamento ficará disponível no sistema por 20 dias
@@ -71,46 +71,73 @@ Já os visitantes poderão acessar o site, visualizando os animais disponíveis 
 .<p align="justify">   **RN006**:  Para registro de animais para doação deve-se fornecer informações claras e precisas sobre os animais disponíveis para adoção. Dados necessários: idade, histórico de saúde, comportamento e necessidades especiais, sendo transparente em relação às suas políticas e procedimentos.
 
 # Requisitos Funcionais 
-TODO: INCLUIR USUÁRIO EM TODOS
 
 <h2>Entradas:</h2>
 
 - **RF001 - Registro de animais:** O sistema deve permitir o registro de dados sobre animais disponíveis para adoção. 
   - **Dados necessários:** tipo de animal (cão, gato, etc.), raça, idade, sexo, porte, histórico médico e comportamental.
-  - **Usuários:** gerente, atendente 
-- **RF002** <p align="justify"> Registro de adotante: O sistema deve permitir o registro de informações sobre o adotante. Dados necessários: nome, RG e CPF, endereço, telefone, e-mail, idade, histórico de adoção de animais, comprovante de residência.
-- **RF003** <p align="justify"> Requisitos do adotante: O sistema deve permitir que os adotantes informem suas preferências de animal. Dados necessários: tipo de animal desejado, tamanho, idade, temperamento e outras informações relevantes.
-- **RF004** <p align="justify"> Agendamento de visitas: O sistema deve permitir que os adotantes agendem visitas para conhecer os animais em um determinado horário, e que o abrigo ou centro de adoção possa agendar visitas correspondentes. Dados necessários: data e horário da visita agendada.
+  - **Usuários:** gerente e atendente. 
+- **RF002 - Registro de adotante:** O sistema deve permitir o registro de informações sobre o adotante.
+  - **Dados necessários:** Nome, RG e CPF, endereço, telefone, e-mail, idade, histórico de adoção de animais, comprovante de residência.
+  - **Usuários:** Gerente e atendente.
+- **RF003 - Requisitos do adotante:** O sistema deve permitir que os adotantes informem suas preferências de animal.
+  -  **Dados necessários:** tipo de animal desejado, tamanho, idade, temperamento e outras informações relevantes.
+  -  **Usuários:** Adotante
+- **RF004 - Agendamento de visitas:** O sistema deve permitir que os adotantes agendem visitas para conhecer os animais em um determinado horário, e que o abrigo ou centro de adoção possa agendar visitas correspondentes.
+  - **Dados necessários:** data e horário da visita agendada.
+  - **Usuários:** Adotante, gerente e atendente.
 
-<h2>Processamento:</h2>
-- TODO: SOLICITAÇÃO DE ADOÇÃO
-- - TODO: AUTENTICAÇÃO:  
-- **RF006** <p align="justify"> Triagem do adotante: O sistema deve permitir que o abrigo realize uma triagem do adotante, incluindo um questionário de adoção e uma entrevista, para garantir que ele esteja apto a adotar um animal e possua a capacidade de cuidar adequadamente do animal. Dados necessários: Horário de trabalho; Declaração de renda; Comprovante de residência.
-- **RF007** <p align="justify"> Avaliação do ambiente doméstico: O sistema deve permitir que o abrigo avalie o ambiente doméstico do adotante para garantir que é um ambiente seguro e adequado para o animal. Dados necessários: Características da moradia (tamanho do terreno, presença ou não de muros, e portões, etc.)
-- **RF008** <p align="justify"> EFETIVAÇÃO Adoção: O sistema deve permitir que o abrigo realize o processo de adoção, incluindo o preenchimento de documentos e o pagamento de taxas de adoção. Dados necessários: Dados descritos na RF002 e comprovante de pagamento das taxas de adoção.
+<h2>Processamento:</h2> 
 
+- **RF005 - Processo de solicitação de adoção:** O possível adotante preencherá um formulário para solicitar a adoção, e o sistema registrará essas informações. O adotante enviará as documentações necessárias e o gerente ou atendente verificará sua veracidade, permitindo que a solicitação da adoção seja autenticada.
+  - **Dados necessários:** Nome, RG e CPF, endereço, telefone, e-mail, idade, histórico de adoção de animais, comprovante de residência
+
+  - **Usuários:** Adotante, Gerente e atendente..
+
+- **RF006 - Triagem do adotante:** O sistema deve permitir que o abrigo realize uma triagem do adotante, incluindo um questionário de adoção e uma entrevista, para garantir que ele esteja apto a adotar um animal e possua a capacidade de cuidar adequadamente do animal.
+  - **Dados necessários:** Horário de trabalho; Declaração de renda; Comprovante de residência.
+  - **Usuários:** Adotante, gerente e atendente.
+   
+- **RF007 - Avaliação do ambiente doméstico:** O sistema deve permitir que o abrigo avalie o ambiente doméstico do adotante para garantir que é um ambiente seguro e adequado para o animal.
+  - **Dados necessários:** Características da moradia (tamanho do terreno, presença ou não de muros, e portões, etc.)
+  - **Usuários:** Adotante, gerente e atendente.
 
 <h2>Saída:</h2>
 
-- **RF010** <p align="justify"> Documento de adoção: O sistema deve gerar um documento de adoção para o adotante. Dados necessários: nome do animal, data de adoção, taxa de adoção.
-- **RF011** <p align="justify"> Registro de adoção: O sistema deve atualizar o registro do animal como adotado e retirá-lo da lista de animais disponíveis para adoção. Dados necessários: Comprovante de adoção.
-- **RF012** <p align="justify"> Informações do animal adotado: O sistema deve fornecer informações detalhadas sobre o animal adotado. Dados necessários: histórico médico, informações de vacinação, instruções sobre cuidados e treinamento, bem como quaisquer outros detalhes relevantes sobre o animal.
-- **RF013** <p align="justify"> Informações de contato do adotante: O sistema deve armazenar informações de contato do adotante para futuras atualizações e verificações de bem-estar do animal adotado. Dados necessários: Telefone e email do adotante.
-- TODO: RELATÓRIOS DE: ADOÇÕES POR PERIODO, ANIMAIS SEM ADOÇÃO, ETC.
+- **RF008 - Efetivação da adoção:** Caso o adotante cumpra com todos os requerimentos necessários para o processo da adoção (desde a solicitação até a avaliação do ambiente doméstico), o animal poderá ser retirado do abrigo, e o gerente ou atendente será responsável por retirar o animal do sistema.
+
+  - **Dados necessários:** Status de adoção do animal (o animal só poderá ser retirado do sistema caso a adoção tiver sido aprovada)
+
+  - **Usuários:** Gerente e atendente.
+
+- **RF009 - Documento de adoção:** O sistema deve gerar um documento de adoção para o adotante.
+  - **Dados necessários:** nome do animal, data de adoção, taxa de adoção.
+  - **Usuários:** Gerente e atendente.
+- **RF010 - Registro de adoção:** O sistema deve atualizar o registro do animal como adotado e retirá-lo da lista de animais disponíveis para adoção.
+  - **Dados necessários:** Comprovante de adoção.
+  - **Usuários:** Gerente e atendente.
+
+
+- **RF011 - Informações de contato do adotante:** O sistema deve armazenar informações de contato do adotante para futuras atualizações e verificações de bem-estar do animal adotado.
+  - **Dados necessários:** Telefone e email do adotante.
+  - **Usuários:** Gerente e atendente.
+
+- **Relatórios das adoções:** O sistema deve gerar relatórios contendo informações da quantidade de animais adotados por mês, e de animais que ainda não foram adotados.
+  - **Dados necessários:** Quantidade de adoção por mês, quantidade de animais não adotados.
+  - **Usuários:** Gerente e atendente.
 
 # Requisitos Não Funcionais 
 
-- **RFN01** <p align="justify"> Segurança: O sistema deve ser seguro e proteger as informações pessoais dos usuários e dos animais cadastrados. O acesso ao sistema deve ser restrito a usuários autorizados e as informações devem ser armazenadas de forma segura.
+- **RFN001 - Segurança:** O sistema deve ser seguro e proteger as informações pessoais dos usuários e dos animais cadastrados. O acesso ao sistema deve ser restrito a usuários autorizados e as informações devem ser armazenadas de forma segura.
 
-- **RFN02** <p align="justify"> Escalabilidade: O sistema deve ser capaz de lidar com um grande número de usuários e animais cadastrados. O sistema deve ser projetado de forma escalável para garantir que possa crescer e se adaptar ao aumento do tráfego.
+- **RFN002 - Escalabilidade:** O sistema deve ser capaz de lidar com um grande número de usuários e animais cadastrados. O sistema deve ser projetado de forma escalável para garantir que possa crescer e se adaptar ao aumento do tráfego.
 
-- **RFN03** <p align="justify"> Performance: O sistema deve ser rápido e responsivo, permitindo que os usuários acessem e atualizem as informações com rapidez e eficiência.
+- **RFN003 - Performance:** O sistema deve ser rápido e responsivo, permitindo que os usuários acessem e atualizem as informações com rapidez e eficiência.
 
-- **RFN04** <p align="justify">Disponibilidade: O sistema deve estar disponível e funcionando o tempo todo, com um tempo de inatividade mínimo para garantir que os usuários possam acessá-lo sempre que necessário.
+- **RFN004 - Disponibilidade:** O sistema deve estar disponível e funcionando o tempo todo, com um tempo de inatividade mínimo para garantir que os usuários possam acessá-lo sempre que necessário.
 
-- **RFN05** <p align="justify">regulamentações aplicáveis, como a proteção de dados pessoais e os regulamentos de adoção de animais.
+- **RFN005:** Regulamentações aplicáveis, como a proteção de dados pessoais e os regulamentos de adoção de animais.
 
-- **RFN06** <p align="justify">Banco de Dados: O sistema será implementado com MySQL.
+- **RFN006 - Banco de Dados:** O sistema será implementado com MySQL.
 
-- **RFN07** <p align="justify"> Desenvolvimento: Os frameworks utilizados para o desenvolvimento do sistema serão VueJS, React Native para o FrotEnd e Django para backend.
-
+- **RFN007 - Desenvolvimento:** Os frameworks utilizados para o desenvolvimento do sistema serão VueJS, React Native para o FrotEnd e Django para backend.
