@@ -79,7 +79,7 @@ Links do projeto:
   - **Usuários:** gerente e atendente. 
 - **RF002 - Registro de adotante:** O sistema deve permitir o registro de informações sobre o adotante.
   - **Dados necessários:** Nome, RG e CPF, endereço, telefone, e-mail, idade, histórico de adoção de animais, comprovante de residência.
-  - **Usuários:** Gerente e atendente.
+  - **Usuários:** Gerente.
 - **RF003 - Requisitos do adotante:** O sistema deve permitir que os adotantes informem suas preferências de animal.
   -  **Dados necessários:** tipo de animal desejado, tamanho, idade, temperamento e outras informações relevantes.
   -  **Usuários:** Adotante
@@ -92,7 +92,7 @@ Links do projeto:
 - **RF005 - Processo de solicitação de adoção:** O possível adotante preencherá um formulário para solicitar a adoção, e o sistema registrará essas informações. O adotante enviará as documentações necessárias e o gerente ou atendente verificará sua veracidade, permitindo que a solicitação da adoção seja autenticada.
   - **Dados necessários:** Nome, RG e CPF, endereço, telefone, e-mail, idade, histórico de adoção de animais, comprovante de residência
 
-  - **Usuários:** Adotante, Gerente e atendente..
+  - **Usuários:** Adotante e gerente.
 
 - **RF006 - Triagem do adotante:** O sistema deve permitir que o abrigo realize uma triagem do adotante, incluindo um questionário de adoção e uma entrevista, para garantir que ele esteja apto a adotar um animal e possua a capacidade de cuidar adequadamente do animal.
   - **Dados necessários:** Horário de trabalho; Declaração de renda; Comprovante de residência.
@@ -100,7 +100,7 @@ Links do projeto:
    
 - **RF007 - Avaliação do ambiente doméstico:** O sistema deve permitir que o abrigo avalie o ambiente doméstico do adotante para garantir que é um ambiente seguro e adequado para o animal.
   - **Dados necessários:** Características da moradia (tamanho do terreno, presença ou não de muros, e portões, etc.)
-  - **Usuários:** Adotante, gerente e atendente.
+  - **Usuários:** Adotante e gerente.
 
 <h2>Saída:</h2>
 
@@ -108,14 +108,14 @@ Links do projeto:
 
   - **Dados necessários:** Status de adoção do animal (o animal só poderá ser retirado do sistema caso a adoção tiver sido aprovada)
 
-  - **Usuários:** Gerente e atendente.
+  - **Usuários:** Gerente.
 
 - **RF009 - Documento de adoção:** O sistema deve gerar um documento de adoção para o adotante.
   - **Dados necessários:** nome do animal, data de adoção, taxa de adoção.
   - **Usuários:** Gerente e atendente.
 - **RF010 - Registro de adoção:** O sistema deve atualizar o registro do animal como adotado e retirá-lo da lista de animais disponíveis para adoção.
   - **Dados necessários:** Comprovante de adoção.
-  - **Usuários:** Gerente e atendente.
+  - **Usuários:** Atendente.
 
 
 - **RF011 - Informações de contato do adotante:** O sistema deve armazenar informações de contato do adotante para futuras atualizações e verificações de bem-estar do animal adotado.
@@ -124,7 +124,7 @@ Links do projeto:
 
 - **Relatórios das adoções:** O sistema deve gerar relatórios contendo informações da quantidade de animais adotados por mês, e de animais que ainda não foram adotados.
   - **Dados necessários:** Quantidade de adoção por mês, quantidade de animais não adotados.
-  - **Usuários:** Gerente e atendente.
+  - **Usuários:** Atendente.
 
 # Requisitos Não Funcionais 
 
