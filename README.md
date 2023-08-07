@@ -1,6 +1,7 @@
 
 # Projeto Integrador - Amigos de Joinville
-![Header](./pi.png)
+
+
 
 
 <p align="justify">Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
@@ -141,3 +142,6 @@ Links do projeto:
 - **RFN006 - Banco de Dados:** O sistema será implementado com MySQL.
 
 - **RFN007 - Desenvolvimento:** Os frameworks utilizados para o desenvolvimento do sistema serão VueJS, React Native para o FrotEnd e Django para backend.
+
+# Casos de Uso 
+![Header](./casosdeuso.png)
